@@ -16,5 +16,10 @@ pipeline{
 				sh 'cat /etc/os-release'
 			}
 		}
+        stage('4-disk-free'){
+            steps{
+                sh 'df -h'
+            }
+        }
 	}
 }
