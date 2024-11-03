@@ -1,2 +1,2 @@
 # etech-exe
-to demo webhook
+to demo jenkins job
